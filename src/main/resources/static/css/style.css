@@ -92,8 +92,12 @@ p {
 }
 
 #skills-list {
-  width: 60vw;
+  width: 70vw;
   margin: auto;
+}
+
+.skills-heading {
+	margin: 2vh;
 }
 
 .custom-thumbnail {

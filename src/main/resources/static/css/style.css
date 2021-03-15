@@ -87,8 +87,9 @@ p {
 }
 
 .btn {
-  font-size: 17px;
+  font-size: 18px;
   margin: 2.5px;
+  padding: 0.5vh 1.2vw;
 }
 
 #skills-list {

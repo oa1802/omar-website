@@ -1,0 +1,179 @@
+nav {
+  height: 7vh;
+}
+
+.nav {
+  margin-left: 38.5vw;
+}
+
+nav > ul > li {
+  font-size: 2vh;
+  padding-top: 1.2vh;
+}
+
+li > a {
+  font-size: 2vh;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #80b3ff;
+  color: hsla(216, 100%, 75%, 1);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #ffffdd;
+  color: hsla(60, 100%, 93%, 1);
+}
+
+h1,
+h2 {
+  font-size: 350%;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px #111111;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.jumbotron h1 {
+  font-size: 600%;
+}
+
+.jumbotron {
+  color: #ffffdd;
+  color: hsla(60, 100%, 93%, 1);
+  background-image: url("../images/chrysler.jpeg");
+  background-repeat: no-repeat;
+  padding: 45vh 10vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  height: 100vh;
+}
+
+.content-section {
+  color: #ffffdd;
+  color: hsla(60, 100%, 93%, 1);
+  height: 100vh;
+  padding: 80px 25px;
+}
+
+p {
+  font-size: 2.5vh;
+}
+
+#about {
+  padding: 140px 0px;
+  background-color: #223344;
+  background-color: hsla(210, 33%, 20%, 1);
+}
+
+#about img {
+  max-height: 45vh;
+}
+
+#about-text {
+  width: 37%;
+}
+
+#about-tech-list {
+  font-weight: bold;
+  font-size: 2.5vh;
+}
+
+#skills {
+  background-color: #556677;
+  background-color: hsla(210, 17%, 40%, 1);
+}
+
+.btn {
+  font-size: 20px;
+  margin: 3px;
+}
+
+#skills-list {
+  width: 60vw;
+  margin: auto;
+}
+
+.custom-thumbnail {
+  padding-top: 35px;
+}
+
+.custom-thumbnail > a {
+  color: #ffffdd;
+  color: hsla(60, 100%, 93%, 1);
+  font-size: 200px;
+}
+
+.custom-thumbnail > a:hover,
+.custom-thumbnail > a:visited,
+.custom-thumbnail > a:active,
+.custom-thumbnail > a:focus {
+  text-decoration: none;
+}
+
+.custom-thumbnail > a:hover {
+  color: #222;
+  color: hsla(0, 0%, 13%, 1);
+}
+
+#resume,
+#resume-dropdown {
+  background-color: #88aacc;
+  background-color: hsla(210, 40%, 67%, 1);
+}
+
+#contact {
+  height: 90vh;
+  background-color: #80b3ff;
+  background-color: hsla(216, 100%, 75%, 1);
+}
+
+#email-thumbnail-glyphicon {
+  font-size: 200px;
+}
+
+footer {
+  color: #80b3ff;
+  color: hsla(216, 100%, 75%, 1);
+  background-color: #222;
+  background-color: hsla(0, 0%, 13%, 1);
+  height: 7vh;
+  padding-top: 2.5vh;
+  font-size: 2vh;
+}
+
+.slideanim {
+  visibility: hidden;
+}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}

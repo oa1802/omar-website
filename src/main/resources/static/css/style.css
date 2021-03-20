@@ -123,6 +123,11 @@ p {
   color: hsla(0, 0%, 13%, 1);
 }
 
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url(/fonts/glyphicons-halflings-regular.woff) format("woff");
+}
+
 #resume,
 #resume-dropdown {
   background-color: #88aacc;
